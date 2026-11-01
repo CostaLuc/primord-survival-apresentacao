@@ -1,0 +1,20 @@
+# Somente material estatico de apresentacao pode entrar neste repositorio.
+*
+!.gitignore
+!.nojekyll
+!README.md
+!TEXTOS-PARA-DIVULGACAO.md
+!index.html
+!styles.css
+!app.js
+!assets/
+assets/*
+!assets/hud.png
+!assets/mapa.png
+!assets/inicio.png
+!assets/dinos.png
+!assets/builds.png
+!assets/mutacoes.png
+!assets/build-compacta.png
+!assets/referencia-builds.png
+!assets/primord.png

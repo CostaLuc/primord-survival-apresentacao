@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#101210">
+  <meta name="description" content="Conheça o Primord Survival: minimapa, marcações, status, builds e mutações para acompanhar sua jornada em The Isle. Contato com luccosta.">
+  <title>Primord Survival — Conheça o projeto</title>
+  <link rel="icon" href="assets/primord.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Primord Survival — início"><img src="assets/primord.png" alt="Primord Survival" width="2160" height="736"></a>
+    <nav aria-label="Navegação principal"><a href="#recursos">Recursos</a><a href="#marcacoes">Marcações</a><a href="#telas">As telas</a></nav>
+    <a class="header-contact" href="#contato">Fale comigo <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/hud.png" alt="Omniraptor em The Isle com minimapa e checklist à esquerda e atributos na base da tela" width="1920" height="1080" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-content wrap">
+        <p class="eyebrow"><span class="live-dot"></span> PRIMORD SURVIVAL · THE ISLE</p>
+        <h1 id="hero-title">Conheça o mapa.<br>Prepare sua<br><em>próxima vida.</em></h1>
+        <p class="hero-description">Sua jornada com mais informação. Minimapa, marcações, status e um guia de builds para consultar enquanto joga.</p>
+        <div class="hero-actions"><a class="button primary" href="#recursos">Explorar funcionalidades <span aria-hidden="true">↘</span></a><a class="text-link" href="#telas">Ver as telas <span aria-hidden="true">→</span></a></div>
+      </div>
+      <div class="hero-bottom wrap"><span><span class="tiny-cross" aria-hidden="true">＋</span> INFORMAÇÃO NO SEU CAMPO DE VISÃO</span><a href="#recursos">DESLIZE PARA EXPLORAR <span aria-hidden="true">↓</span></a></div>
+      <span class="hero-orbit orbit-one" aria-hidden="true"></span><span class="hero-orbit orbit-two" aria-hidden="true"></span>
+    </section>
+
+    <section class="resources section wrap" id="recursos" aria-labelledby="resources-title">
+      <div class="section-heading reveal"><p class="eyebrow gold">01 / RECURSOS</p><h2 id="resources-title">Menos procura.<br><span>Mais foco na jornada.</span></h2><p>Do primeiro ponto no mapa à escolha da próxima build: as informações que você precisa, em um só lugar.</p></div>
+      <div class="resource-list">
+        <article class="resource reveal"><span class="resource-number">01</span><div><h3>Seu mapa, sempre por perto.</h3><p>Acompanhe a posição no minimapa e amplie com F9 para explorar a região. Ajuste tamanho, zoom e opacidade ao seu jeito de jogar.</p></div><span class="resource-tag">MINIMAPA + F9</span></article>
+        <article class="resource reveal"><span class="resource-number">02</span><div><h3>O próximo destino fica marcado.</h3><p>Crie pontos azuis com o botão direito no mapa ampliado. No minimapa, destinos fora da área visível aparecem na borda, indicando a direção.</p></div><span class="resource-tag">MARCAÇÕES</span></article>
+        <article class="resource reveal"><span class="resource-number">03</span><div><h3>Uma leitura rápida do seu dino.</h3><p>Crescimento, vida, vigor, comida e sede no HUD. No Primord, acompanhe também o checklist Prime e o histórico de visitas a áreas.</p></div><span class="resource-tag">STATUS + PRIME</span></article>
+        <article class="resource reveal"><span class="resource-number">04</span><div><h3>Planeje antes de evoluir.</h3><p>Explore dinos, builds de Sobrevivência, PvP e PvP + Sobrevivência. Consulte mutações, efeitos e bônus por etapa; abra o resumo da sua seleção com F4.</p></div><span class="resource-tag">BUILDS + MUTAÇÕES</span></article>
+      </div>
+      <p class="section-note reveal">O guia ajuda na consulta e no planejamento. Selecionar uma build no painel não aplica mutações ao dinossauro no jogo.</p>
+    </section>
+
+    <section class="map-section section" id="marcacoes" aria-labelledby="map-title">
+      <div class="wrap">
+        <div class="map-intro reveal"><div><p class="eyebrow gold">02 / NO CAMINHO CERTO</p><h2 id="map-title">Um ponto no mapa.<br><span>Um destino na sua jornada.</span></h2></div><p>Guarde locais importantes e encontre a direção de volta. Mantenha seus pontos de referência para continuar a jornada no Primord.</p></div>
+        <div class="map-frame reveal"><img src="assets/mapa.png" alt="Mapa ampliado com três marcações azuis numeradas e regiões delimitadas" width="1920" height="1080" loading="lazy"><span class="frame-label"><kbd>F9</kbd> MAPA AMPLIADO</span><span class="map-pulse" aria-hidden="true"></span><button class="expand-image" type="button" data-image="assets/mapa.png" data-caption="Mapa ampliado · F9 — marcações azuis criadas pelo jogador" aria-label="Ampliar imagem do mapa">↗</button></div>
+        <div class="map-steps">
+          <article class="reveal"><span>01 / EXPLORE</span><h3>Abra com F9</h3><p>Alterne entre o minimapa e o mapa ampliado. Esc retorna à visão pequena.</p></article>
+          <article class="reveal"><span>02 / MARQUE</span><h3>Botão direito. Pronto.</h3><p>Clique para criar uma marca azul. Use o botão direito sobre a bolinha para apagar.</p></article>
+          <article class="reveal"><span>03 / SIGA</span><h3>Leve a direção com você</h3><p>Mesmo fora da visão pequena, o ponto aparece na borda do minimapa, na direção do destino.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase section wrap" id="telas" aria-labelledby="screens-title">
+      <div class="section-heading reveal"><p class="eyebrow gold">03 / POR DENTRO DO PRIMORD</p><h2 id="screens-title">Cada tela tem<br><span>seu papel na jornada.</span></h2><p>Explore os menus e conheça os detalhes. Selecione uma tela ou dê play para acompanhar a apresentação.</p></div>
+      <div class="showcase-layout reveal">
+        <div class="screen-stage">
+          <div class="stage-bar"><span><span class="live-dot"></span> PRIMORD / APRESENTAÇÃO</span><span id="slide-counter">01 / 08</span></div>
+          <button class="screen-preview" type="button" id="screen-preview" aria-label="Ampliar imagem: Visão durante o jogo"><img id="screen-image" src="assets/hud.png" alt="HUD com minimapa, checklist Prime e atributos do dinossauro" width="1920" height="1080" loading="lazy"><span class="zoom-hint">AMPLIAR <span aria-hidden="true">↗</span></span></button>
+          <div class="stage-controls"><button type="button" id="previous-slide" aria-label="Tela anterior">←</button><button type="button" id="play-slides" aria-pressed="false"><span aria-hidden="true">▶</span> Apresentar</button><button type="button" id="next-slide" aria-label="Próxima tela">→</button></div>
+          <div class="slide-progress" aria-hidden="true"><span id="slide-progress"></span></div>
+        </div>
+        <div class="screen-story"><p class="eyebrow" id="slide-category">HUD / VISÃO GERAL</p><h3 id="slide-title">Tudo no seu campo de visão.</h3><p id="slide-description">O minimapa e o checklist ficam à esquerda. Na base da tela, acompanhe crescimento, HP, vigor, comida e sede sem perder de vista o que acontece ao redor.</p><ul id="slide-points"><li>Minimapa com pontos marcados</li><li>Checklist Prime no Primord</li><li>Atributos do dino em uma faixa compacta</li></ul><p class="screen-note" id="slide-note">O HUD acompanha o dino ativo no Primord.</p></div>
+      </div>
+      <div class="screen-picker" role="group" aria-label="Escolha uma tela">
+        <button type="button" class="screen-choice is-selected" data-slide="0" aria-pressed="true"><span>01</span> HUD</button>
+        <button type="button" class="screen-choice" data-slide="1" aria-pressed="false"><span>02</span> Mapa F9</button>
+        <button type="button" class="screen-choice" data-slide="2" aria-pressed="false"><span>03</span> Início</button>
+        <button type="button" class="screen-choice" data-slide="3" aria-pressed="false"><span>04</span> Dinos</button>
+        <button type="button" class="screen-choice" data-slide="4" aria-pressed="false"><span>05</span> Builds</button>
+        <button type="button" class="screen-choice" data-slide="5" aria-pressed="false"><span>06</span> Mutações</button>
+        <button type="button" class="screen-choice" data-slide="6" aria-pressed="false"><span>07</span> Resumo F4</button>
+        <button type="button" class="screen-choice" data-slide="7" aria-pressed="false"><span>08</span> Referência visual</button>
+      </div>
+      <p class="sr-only" id="slide-announcement" aria-live="polite" aria-atomic="true"></p>
+      <noscript><p>Ative o JavaScript para navegar pela apresentação e ampliar as imagens. Você também pode abrir todas as <a href="assets/">imagens na pasta assets</a>.</p></noscript>
+    </section>
+
+    <section class="shortcuts section" aria-labelledby="keys-title"><div class="wrap shortcuts-layout"><div class="reveal"><p class="eyebrow gold">04 / NA PONTA DOS DEDOS</p><h2 id="keys-title">Um atalho.<br><span>Uma informação.</span></h2><p>Os principais controles para usar durante o jogo.</p></div><dl class="key-list reveal"><div><dt><kbd>F3</kbd></dt><dd>Menu completo de dinos, builds e mutações</dd></div><div><dt><kbd>F4</kbd></dt><dd>Resumo da build selecionada</dd></div><div><dt><kbd>F9</kbd></dt><dd>Ampliar ou restaurar o mapa</dd></div><div><dt><kbd>F6</kbd></dt><dd>Seguir o personagem no mapa</dd></div><div><dt><kbd>F8</kbd></dt><dd>Mostrar ou esconder o HUD</dd></div><div><dt><kbd>Esc</kbd></dt><dd>Fechar o guia ou restaurar o mapa ampliado</dd></div></dl></div></section>
+
+    <section class="contact section wrap" id="contato" aria-labelledby="contact-title"><div class="contact-top reveal"><p class="eyebrow gold">05 / VAMOS CONVERSAR</p><h2 id="contact-title">Curtiu o projeto?<br><em>Fale comigo.</em></h2><p>Quer conhecer melhor, tirar dúvidas ou saber sobre acesso? Me chama no Discord ou no Instagram.</p></div><div class="contact-links reveal"><div class="contact-card"><span class="contact-icon" aria-hidden="true">#</span><div><span class="contact-label">DISCORD</span><strong>luccosta</strong><p>Adicione pelo nome de usuário.</p></div><button type="button" id="copy-discord" class="contact-action">Copiar usuário <span aria-hidden="true">⧉</span></button></div><a class="contact-card" href="https://www.instagram.com/luccosta.ig/" target="_blank" rel="noopener noreferrer"><span class="contact-icon" aria-hidden="true">◎</span><div><span class="contact-label">INSTAGRAM</span><strong>@luccosta.ig</strong><p>Me chama no direct.</p></div><span class="contact-action">Abrir perfil ↗</span></a></div><p class="copy-status" id="copy-status" role="status"></p><p class="license-note">Disponível para Windows. Instalar e atualizar não exige key; para utilizar, é necessária uma licença válida. Os dados do HUD dependem do painel Primord e de um dino ativo.</p></section>
+  </main>
+  <footer class="site-footer wrap"><a class="brand" href="#inicio" aria-label="Voltar ao início"><img src="assets/primord.png" alt="Primord Survival" width="2160" height="736" loading="lazy"></a><p>Apresentação do projeto · por luccosta</p><a href="#inicio">VOLTAR AO TOPO ↑</a></footer>
+  <dialog id="image-dialog" aria-labelledby="dialog-caption"><div class="dialog-toolbar"><p id="dialog-caption"></p><button type="button" id="close-dialog" aria-label="Fechar imagem ampliada">Fechar <kbd>Esc</kbd> ×</button></div><div class="dialog-image-area"><img id="dialog-image" alt=""></div></dialog>
+</body>
+</html>
