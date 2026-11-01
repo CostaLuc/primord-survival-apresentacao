@@ -1,4 +1,4 @@
-# Primord Survival — textos para divulgação
+# NASK — Lucas Costa / Primord Survival — textos para divulgação
 
 Legendas curtas para acompanhar as imagens no Discord ou Instagram. Os nomes abaixo correspondem aos arquivos da pasta `assets`.
 
@@ -58,14 +58,27 @@ Abra um resumo compacto com o dino, estilo e vida escolhidos no guia. Veja os ef
 
 Discord: **luccosta** · Instagram: **@luccosta.ig**.
 
-## Referência visual · `referencia-builds.png`
+## Painel Primord · `painel-publico.png`
 
-**Uma referência de organização visual.**
+**O portal também fica por perto.**
 
-Imagem conceitual fornecida como referência para a apresentação de etapas, efeitos e bônus. Não representa a interface atual do aplicativo.
+Acesse o portal Primord em uma janela própria, com as opções de navegação do painel. Imagem preparada a partir da captura fornecida, com as informações da conta ocultadas para divulgação.
+
+Discord: **luccosta** · Instagram: **@luccosta.ig**.
+
+## Minimapa animado · `minimapa-em-movimento.gif`
+
+**Seu destino continua no mapa.**
+
+Uma demonstração ilustrativa do personagem se deslocando pela região e do minimapa acompanhando sua posição. A animação foi montada para apresentar a ideia de uso; não é uma gravação de partida.
+
+Discord: **luccosta** · Instagram: **@luccosta.ig**.
 
 ## Mensagem de contato
 
 Curtiu o Primord Survival? Para dúvidas, informações e acesso, adicione **luccosta** no Discord ou mande um direct no Instagram **[@luccosta.ig](https://www.instagram.com/luccosta.ig/)**.
 
 Disponível para Windows. Instalar e atualizar não exige key; utilizar exige licença válida. HUD e dados dependem do painel Primord e de um dino ativo.
+
+
+Desenvolvimento e direitos autorais: **NASK — Lucas Costa**. Apresentação preparada para a equipe Primord.
